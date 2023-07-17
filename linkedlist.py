@@ -1,8 +1,9 @@
 class Node:
   def __init__(self, value, next_node=None):
+      #sets value of note and link to next node
     self.value = value
     self.next_node = next_node
-    
+    #
   def get_value(self):
     return self.value
   
