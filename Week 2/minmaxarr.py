@@ -1,5 +1,5 @@
 #!/bin/python3
-
+### THIS CODE IS NOT OPTIMIZED TO PASS ALL TESTS. NEED TO ACCOUNT FOR LONGER LISTS
 import math
 import os
 import random
