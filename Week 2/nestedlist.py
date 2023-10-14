@@ -35,7 +35,7 @@
 # python students = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]
 # The lowest grade of  belongs to Tina. The second lowest grade of belongs to both Harry and Berry, so we order their names alphabetically and print each name on a new line.
 
-    for _ in range(int(input())):
+for _ in range(int(input())):
         name = input()
         score = float(input())
         records.append([name, score])
