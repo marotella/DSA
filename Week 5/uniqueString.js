@@ -1,10 +1,10 @@
 //Write a function to remove all duplciate letters from a provided string. The string will only contail lowercase letters between a - z. The string will not contain spaces.
 
-const makeUnique = (str) =>{
+const makeUnique = (string) =>{
     let unique = "";
-    for(let i =0; i<str.length; i++){
-        if(!unique.includes(str[i])){
-            unique += (str[i])
+    for(const letter of string){
+        if(!unique.includes(letter)){
+            unique += letter
         }
     }
     return unique
