@@ -14,3 +14,26 @@
 
 // Don’t forget the space after the closing parentheses!
 
+const createPhoneNumber = (num) => {
+    //take the array
+    // add it to a string in keeping order
+    // insert phone number characters 
+    phoneNumber = "("
+    for(let i = 0; i < num.length; i++){
+        if(i == 2){
+            phoneNumber += num[i];
+            phoneNumber += ") "
+        }
+        else if (i == 5){
+            phoneNumber += num[i];
+            phoneNumber += "-"
+        }
+        else{
+            phoneNumber += num[i];
+        }
+     console.log(phoneNumber);
+    }
+
+}
+
+createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]);
